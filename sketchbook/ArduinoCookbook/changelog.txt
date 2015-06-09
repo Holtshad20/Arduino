@@ -1,0 +1,59 @@
+changelog.txt
+
+This file identifies code in the download that has changed from the printed text
+ * preceeds files updated since 19 July 2011  
+
+ Recipe 1.6   (ch1r6.pde) removed lines using print and map functions
+ Recipe 1.6A  (ch1r6A.pde) modified code in download to match code in book
+ Recipe 1.6B  (ch1r6B.pde) changed pin from 13 to 9 to match figure in book
+ Recipe 2.4   (ch2r4.pde) replaced variable i with index 
+*Recipe 2.7A  (ch2r7.pde) fixed comment wrap
+*Recipe 2.11A (ch2r11A.pde) fixed comment wrap
+*Recipe 2.11A (ch2r16.pde) pinMode uses const instead of hard coded pin
+*Recipe 4.10A (ch4r10A) added imports to processing sketch
+*Recipe 4.11  (ch4r11.pde) addded missing '/' at top of sketch
+*Recipe 4.11B (ch4r11B.pde) changed HEADER to header
+*Recipe 4.13A (ch4r13A.pde) removed extraneous '...' after #include, swapped tx,rx pins
+*Recipe 4.14  (ch4r14.pde) swapped tx and rx pins
+*Recipe 4.14A (ch4r14A.pde) swapped tx and rx pins
+*Recipe 5.2   (CH5r2.pde) fixed comment to match code
+*Recipe 5.3   (ch5r3.pde) fixed variable names
+*Recipe 5.3A  (ch5r3A.pde) added code to download (Text is correct)
+*Recipe 5.5   (ch5r5.pde) swapped assignments for pins 5 and 6
+*Recipe 5.8   (ch5r8.pde) added missing code to download, fixed comment wrap 
+ Recipe 5.9   (ch5r9B.pde) changed code to use long integers
+ Recipe 5.11  (ch5r11.pde) changed variable types to float
+ Recipe 6.5   (ch6r5.pde) fixed constants to match usage 
+*Recipe 6.8A  (ch6r8A.pde)   fixed comments, (change text to refer to pin 13 instead of pin 2) 
+ Recipe 6.12  (ch6r12.pde) replaced Delay with delay 
+*Recipe 6.13  (ch6r13.pde) added missing semicolon after dataPin declaration
+*Recipe 6.14  (ch6r14.pde) this recipe was missing from download
+*Recipe 6.14A (ch6r14A.pde) this recipe was missing from download
+*Recipe 6.15  (ch6r15.pde) fixed variablwe names
+ Recipe 7.5A  (ch7r5A.pde) moved NbrLEDs definition to follow ledPins array, fixed typos in thatline
+ Recipe 7.6   (ch7r6.pde) fixed off by one error
+*Recipe 7.13  (ch7r13.pde)  removed spurious line in download, remove 'instance' wrapped onto next line
+*Recipe 7.14A (ch7r14A.pde) fixed comment in download code (text is correct)
+ Recipe 8.1   (ch8r1.pde) fixed variable name and comment
+ Recipe 8.3   (ch8r3.pde) fixed variable name
+ Recipe 8.6   (ch8r6.pde) fixed variable name
+ Recipe 8.11  (ch8r11.pde) removed extraneous characters in download code(code in book is correct)
+*Recipe 10.2  (ch10r2.pde) fixed comment wrap
+*Recipe 11.4B (ch11r4B.pde)  added line missing from code in text
+ Recipe 11.7  (ch11r7.pde) this was missing from initial download
+*Recipe 11.9  (ch11r9.pde) fixed comment wrap
+*Recipe 12.2B (ch12r2B.pde) fixed comment wrap
+*Recipe 12.4B (ch12r4B.pde) checkSetTime function missing from text and download
+*Recipe 12.4C (ch12r4C.pde) added code to download (Text is correct)
+*Recipe 13.1  (ch13r1.pde) added missing function, fixed wrap (text correctbut remove sentence:
+      The following sketch uses a function named hueToRGB that was introduced in Chapter 7 to convert
+      an integer value into its red, green, and blue components:
+*Recipe 13.5A (ch13r5A.pde) fixed comment wrap
+*Recipe 13.8  (ch13r8.pde) addded missing '/' at top of sketch
+ Recipe 14.3  (ch14r3.pde) this was missing from the initial download, fixed missing variable assignment  
+ Recipe 14.5A (ch14r5A.pde) removed unnecessary Serial.begin statement.
+ Recipe 15.9  (ch15r9.pde) fixed typo in print statement causing compile error
+*Recipes 15.15 and 15.16 have feedId variable type changed from int to unsigned long 
+*Recipe 16.5   Library code in text is now included in download folder:  ch16\ch1655\i2cDebug
+*Recipe 17.4A (ch17r4A.pde) Text is correct but added functions from 17.4 so download sketch is complete
+*Recipe 18.11 (ch18r11.pde) fixed comment wrap

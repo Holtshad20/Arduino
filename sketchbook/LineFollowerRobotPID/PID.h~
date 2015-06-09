@@ -1,0 +1,22 @@
+#ifndef PID_H
+#define PID_H
+
+#include "Arduino.h"
+#include <avr/io.h>
+#include <util/delay.h>
+class PID
+{
+  public:
+	float pid(float target,float posi,float Kp,float Ki,float Kd,float dt);
+   
+  
+	float error;
+	float integral;
+	float derivative;
+	float propotional;
+	float last_error;
+	float pid_sum;
+
+};
+
+#endif

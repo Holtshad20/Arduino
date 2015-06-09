@@ -1,0 +1,14 @@
+include the hedder file
+
+make object of the pid class
+
+then use the object to call the methods , 
+
+
+PID pid;
+
+pid.pid(target value,sensor position value,Kp constant,Ki constant,Kd constant,delta time in milliseconds)
+
+
+
+

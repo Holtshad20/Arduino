@@ -1,0 +1,67 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit1H
+#define Unit1H
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
+#include <Forms.hpp>
+#include <Menus.hpp>
+#include <windows.h>
+#include <Chart.hpp>
+#include <ExtCtrls.hpp>
+#include <Series.hpp>
+#include <TeEngine.hpp>
+#include <TeeProcs.hpp>
+//---------------------------------------------------------------------------
+class TForm1 : public TForm
+{
+__published:	// IDE-managed Components
+        TGroupBox *GroupBoxPortasCOM;
+        TComboBox *ComboBoxPorta;
+        TButton *BotaoConectar;
+        TButton *BotaoDesconectar;
+        TMainMenu *MainMenu1;
+        TGroupBox *GroupBox1;
+        TEdit *Edit1;
+        TEdit *Edit2;
+        TEdit *Edit3;
+        TLabel *Label1;
+        TLabel *Label2;
+        TLabel *Label3;
+        TChart *Chart1;
+        TLineSeries *Series1;
+        TLineSeries *Series2;
+        TLineSeries *Series3;
+        TMenuItem *Configurar1;
+        TMenuItem *GanhosdoControlador1;
+        TTimer *Timer1;
+        TGroupBox *GroupBox2;
+        TRadioButton *RadioButton1;
+        TRadioButton *RadioButton2;
+        TRadioButton *RadioButton3;
+        TButton *Button2;
+        TButton *Button3;
+        TLabel *Label4;
+        TEdit *Edit4;
+        TButton *Button1;
+        TLabel *Label5;
+        TLabel *Label6;
+        void __fastcall FormCreate(TObject *Sender);
+        void __fastcall BotaoConectarClick(TObject *Sender);
+        void __fastcall BotaoDesconectarClick(TObject *Sender);
+        void __fastcall GanhosdoControlador1Click(TObject *Sender);
+        void __fastcall Button1Click(TObject *Sender);
+        void __fastcall Timer1Timer(TObject *Sender);
+        void __fastcall Button2Click(TObject *Sender);
+        void __fastcall Button3Click(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+        __fastcall TForm1(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm1 *Form1;
+//---------------------------------------------------------------------------
+#endif
+ 

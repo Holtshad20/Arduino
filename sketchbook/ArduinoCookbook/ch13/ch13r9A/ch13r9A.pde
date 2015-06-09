@@ -1,0 +1,31 @@
+/*
+ * I2C_Slave
+ * monitors I2C requests and echoes these to the serial port
+ *
+ */
+
+#include <Wire.h>
+
+const int address = 4;  //the address to be used by the communicating devices
+
+void setup()
+{
+  Wire.begin(address); // join I2C bus using this address
+  Wire.onReceive(receiveEvent); // register event to handle requests
+}
+
+void loop()
+{
+  // nothing here, all the work is done in receiveEvent
+}
+
+void receiveEvent(int howMany)
+{
+  while(Wire.available() > 0)
+  {
+    char c = Wire.receive(); // receive byte as a character
+    Serial.print(c); // echo
+  }
+}
+      
+    

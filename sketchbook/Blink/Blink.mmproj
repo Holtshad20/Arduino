@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mm_project current="1" serial_port="ttyACM0" programmer="" board="Arduino Uno" includePaths="" libPaths="" srcPaths="" libs="" useCodeAutomation="0" linkPrintfVersion="0" serialPortSpeed="" isLibrary="13">
+    <files>
+        <file name="Blink.cpp" open="yes"/>
+        <file name="mariamole_auto_generated.h" open="yes"/>
+    </files>
+    <externals/>
+</mm_project>

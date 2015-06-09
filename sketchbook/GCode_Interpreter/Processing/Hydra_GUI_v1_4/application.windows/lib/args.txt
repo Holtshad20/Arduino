@@ -1,0 +1,3 @@
+ -Xms64m -Xmx1000m
+Hydra_GUI_v1_4
+Hydra_GUI_v1_4.jar,core.jar,serial.jar,RXTXcomm.jar,controlP5.jar
