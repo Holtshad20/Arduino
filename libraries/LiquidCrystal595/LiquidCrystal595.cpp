@@ -292,6 +292,7 @@ inline void LiquidCrystal595::command(uint8_t value) {
 
 inline size_t LiquidCrystal595::write(uint8_t value) {
   send(value, HIGH);
+  return 0; //If here is a declaration of a non-void return type, te function must return something like return 0; or return 0.0;
 }
 
 /************ low level data pushing commands **********/
